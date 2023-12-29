@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "title": "Top-down action game",
+      "description": "<p>Simple top-down video made with Godot engine.</p><p>Have basic features such as:</p><ul><li>8-directional movement</li><li>Animations</li><li>Sound effects</li><li>Enemy states: idle, wandering, chase and attacking.</li><li>Basic health UI</li><li>Player-Camera follow</li><li>Basic visual effects</li></ul>",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/YY9qr42qJnA",
+      "tags": [
+        "godot",
+        "game-dev",
+        "2d",
+        "top-down"
+      ],
+      "links": [
+        {
+          "title": "YouTube",
+          "url": "https://youtu.be/YY9qr42qJnA"
+        },
+        {
+          "title": "GitHub",
+          "url": "TODO"
+        }
+      ]
+    },
+    {
+      "title": "2D Bike racing",
+      "description": "<p>Short demo of \"Bike run\" showcasing some basic concepts applied such as:</p><ul><li>Random box (obstacle) spawning</li><li>Free player (bike) movement</li><li>Score (Not rendered on screen)</li><li>Game over</li></ul><p>Made with python and pygame.</p>",
+      "type": "video",
+      "url": "https://youtube.com/embed/UURkN9zbnAw",
+      "tags": [
+        "python",
+        "pygame",
+        "game-dev",
+        "2d",
+        "top-down"
+      ],
+      "links": []
+    },
+    {
+      "title": "Intro to shading",
+      "description": "<p>Small and short introduction to shaders using <i>gdshader</i> format.</p><p>Topics mentioned:</p><ul><li>Vertex</li><li>Fragment</li><li>Uniform</li><li>UV</li></ul>",
+      "type": "blog",
+      "url": "https://github.com/sir-geronimo/TODO",
+      "tags": [
+        "shaders",
+        "game-dev",
+        "godot",
+        "2d"
+      ],
+      "links": []
+    }
+  ]
+}

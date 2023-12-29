@@ -1,0 +1,54 @@
+{
+  "timeline": [
+    {
+      "title": "Lead Software Engineer",
+      "company": "LP360 Drone & Geospatial",
+      "location": "Hunstville - Alabama, US",
+      "remote": true,
+      "started": "01/09/2022",
+      "ended": null,
+      "duties": [
+        "Do 1 thing",
+        "Do 2 thing",
+        "Do 3 thing",
+        "Do 4 thing"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "LP360 Drone & Geospatial",
+      "location": "Montreal - Quebec, CA",
+      "remote": true,
+      "started": "01/04/2021",
+      "ended": "01/09/2022",
+      "duties": []
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Mixart",
+      "location": "Santo Domingo, DO",
+      "remote": false,
+      "started": "01/04/2021",
+      "ended": null,
+      "duties": []
+    },
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "OrionTek",
+      "location": "Santo Domingo, DO",
+      "remote": false,
+      "started": "01/10/2019",
+      "ended": "01/04/2021",
+      "duties": []
+    },
+    {
+      "title": "Software Engineer",
+      "company": "IKEA",
+      "location": "Santo Domingo, DO",
+      "remote": false,
+      "started": "04/04/2019",
+      "ended": "01/10/2019",
+      "duties": []
+    }
+  ]
+}
