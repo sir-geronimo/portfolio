@@ -2,53 +2,48 @@
   "timeline": [
     {
       "title": "Lead Software Engineer",
-      "company": "LP360 Drone & Geospatial",
-      "location": "Hunstville - Alabama, US",
+      "company": "LP360",
+      "location": "Alabama, US",
       "remote": true,
-      "started": "01/09/2022",
+      "started": "2022-09-01",
       "ended": null,
-      "duties": [
-        "Do 1 thing",
-        "Do 2 thing",
-        "Do 3 thing",
-        "Do 4 thing"
-      ]
+      "description": "Led a cross-functional team, wrote project documentation, conducted performance reviews, mentored junior engineers, performed interviews, addressed technical issues, collaborated with UI/UX designers, and designed highly scalable systems/web applications."
     },
     {
-      "title": "Software Engineer",
-      "company": "LP360 Drone & Geospatial",
-      "location": "Montreal - Quebec, CA",
+      "title": "Senior Software Engineer",
+      "company": "LP360",
+      "location": "Quebec, CA",
       "remote": true,
-      "started": "01/04/2021",
-      "ended": "01/09/2022",
-      "duties": []
+      "started": "2021-04-01",
+      "ended": "2022-09-01",
+      "description": "Enhanced large internal systems, added features, maintained legacy systems, developed and documented products for thousands of customers. Designed RESTful web API and integrated third-party services for online payments, mailing, reporting."
     },
     {
       "title": "Senior Software Engineer",
       "company": "Mixart",
       "location": "Santo Domingo, DO",
       "remote": false,
-      "started": "01/04/2021",
+      "started": "2021-04-01",
       "ended": null,
-      "duties": []
+      "description": "Mentored junior developers, cultivating a culture of continuous learning. Contributed to architectural decisions, balancing short-term needs with long-term scalability. Collaborated with UI/UX designers to implement visually appealing interfaces. Designed and developed a responsive web video game using HTML, CSS, and React."
     },
     {
-      "title": "Full Stack Software Engineer",
+      "title": "Full Stack Engineer",
       "company": "OrionTek",
       "location": "Santo Domingo, DO",
       "remote": false,
-      "started": "01/10/2019",
-      "ended": "01/04/2021",
-      "duties": []
+      "started": "2019-10-01",
+      "ended": "2021-04-01",
+      "description": "Managed diverse projects encompassing project tracking, food shopping, and delivery tracking. Implemented best practices across projects, enhancing overall efficiency. Established and maintained continuous integration and delivery pipelines for streamlined development processes."
     },
     {
-      "title": "Software Engineer",
+      "title": "Software Developer",
       "company": "IKEA",
       "location": "Santo Domingo, DO",
       "remote": false,
-      "started": "04/04/2019",
-      "ended": "01/10/2019",
-      "duties": []
+      "started": "2019-04-04",
+      "ended": "2019-10-01",
+      "description": "Developed and launched features, provided tech support, reduced downtime, and improved system performance through successful integration, including training sessions for decreased user error rates."
     }
   ]
 }

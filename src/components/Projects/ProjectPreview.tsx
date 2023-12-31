@@ -1,6 +1,6 @@
 import { Box } from '@mui/joy'
-import { Project } from './ProjectCard'
 import { ChatRounded, ImageRounded } from '@mui/icons-material'
+import { Project } from '../../types/project'
 
 type Props = {
   project: Project

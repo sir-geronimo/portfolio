@@ -1,14 +1,6 @@
 import { AspectRatio, Button, Card, CardActions, CardContent, CardOverflow, Chip, Link, Stack, Typography } from '@mui/joy'
 import { ProjectPreview } from './ProjectPreview'
-
-export type Project = {
-  title: string
-  description: string
-  url: string
-  type: 'video' | 'blog' | string
-  tags: string[]
-  links: { title: string; url: string }[]
-}
+import { Project } from '../../types/project'
 
 type Props = {
   project: Project
