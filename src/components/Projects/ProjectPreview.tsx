@@ -43,6 +43,8 @@ export function ProjectPreview(props: Props) {
         )
       ) : project.type === 'blog' ? (
         <ImageRounded sx={{ fontSize: '3rem', opacity: 0.3 }} />
+      ) : project.type === 'repo' ? (
+        project.preview !== null && <img src={project.preview} width="100%" onClick={handlePreviewClick} />
       ) : (
         <ChatRounded sx={{ fontSize: '3rem', opacity: 0.3 }} />
       )}

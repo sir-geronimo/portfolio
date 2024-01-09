@@ -3,8 +3,9 @@
     {
       "title": "Red Baron",
       "description": "<p>Simple top-down shoot'em up video game made with Godot engine.</p><p>Have basic features such as:</p><ul><li>Collisions</li><li>Animations</li><li>Sound effects</li><li>Different enemies</li><li>Basic UI</li><li>Score and Highscore system</li><li>Component-based entities</li></ul>",
-      "type": "video",
+      "type": "repo",
       "preview": "images/red_baron.jpg",
+      "url": "https://github.com/sir-geronimo/red-baron",
       "tags": [
         "godot",
         "game-dev",

@@ -18,7 +18,7 @@ export default function ProjectCard(props: Props) {
       </CardOverflow>
 
       <CardContent>
-        <Link href={project.url}>
+        <Link href={project.url} target="_blank">
           <Typography level="title-lg">{project.title}</Typography>
         </Link>
 
