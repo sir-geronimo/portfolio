@@ -1,6 +1,7 @@
 import { Box } from '@mui/joy'
 import { ChatRounded, ImageRounded } from '@mui/icons-material'
 import { Project } from '../../types/project'
+import { useState } from 'react'
 
 type Props = {
   project: Project
@@ -8,6 +9,13 @@ type Props = {
 
 export function ProjectPreview(props: Props) {
   const { project } = props
+  const [showThumbnail, setShowThumbnail] = useState(true)
+
+  function handlePreviewClick(): void {
+    if (project.url) {
+      setShowThumbnail(false)
+    }
+  }
 
   return (
     <Box
@@ -20,15 +28,19 @@ export function ProjectPreview(props: Props) {
       }}
     >
       {project.type === 'video' ? (
-        <iframe
-          width="100%"
-          height="100%"
-          src={project.url}
-          title={project.title}
-          frameBorder={0}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        />
+        project.preview !== null && showThumbnail ? (
+          <img src={project.preview} width="100%" onClick={handlePreviewClick} />
+        ) : (
+          <iframe
+            width="100%"
+            height="100%"
+            src={project.url}
+            title={project.title}
+            frameBorder={0}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        )
       ) : project.type === 'blog' ? (
         <ImageRounded sx={{ fontSize: '3rem', opacity: 0.3 }} />
       ) : (

@@ -1,9 +1,28 @@
 {
   "projects": [
     {
-      "title": "Top-down action game",
-      "description": "<p>Simple top-down video made with Godot engine.</p><p>Have basic features such as:</p><ul><li>8-directional movement</li><li>Animations</li><li>Sound effects</li><li>Enemy states: idle, wandering, chase and attacking.</li><li>Basic health UI</li><li>Player-Camera follow</li><li>Basic visual effects</li></ul>",
+      "title": "Red Baron",
+      "description": "<p>Simple top-down shoot'em up video game made with Godot engine.</p><p>Have basic features such as:</p><ul><li>Collisions</li><li>Animations</li><li>Sound effects</li><li>Different enemies</li><li>Basic UI</li><li>Score and Highscore system</li><li>Component-based entities</li></ul>",
       "type": "video",
+      "preview": "images/red_baron.jpg",
+      "tags": [
+        "godot",
+        "game-dev",
+        "2d",
+        "top-down-shump"
+      ],
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/sir-geronimo/red-baron"
+        }
+      ]
+    },
+    {
+      "title": "Top-down action game",
+      "description": "<p>Simple top-down video game made with Godot engine.</p><p>Have basic features such as:</p><ul><li>8-directional movement</li><li>Animations</li><li>Sound effects</li><li>Enemy states: idle, wandering, chase and attacking.</li><li>Basic health UI</li><li>Player-Camera follow</li><li>Basic visual effects</li></ul>",
+      "type": "video",
+      "preview": "images/action_rpg.jpg",
       "url": "https://www.youtube.com/embed/YY9qr42qJnA",
       "tags": [
         "godot",
@@ -18,7 +37,7 @@
         },
         {
           "title": "GitHub",
-          "url": "TODO"
+          "url": "https://github.com/sir-geronimo/godot_action_rpg"
         }
       ]
     },
@@ -26,6 +45,7 @@
       "title": "2D Bike racing",
       "description": "<p>Short demo of \"Bike run\" showcasing some basic concepts applied such as:</p><ul><li>Random box (obstacle) spawning</li><li>Free player (bike) movement</li><li>Score (Not rendered on screen)</li><li>Game over</li></ul><p>Made with python and pygame.</p>",
       "type": "video",
+      "preview": "images/bike_run.jpg",
       "url": "https://youtube.com/embed/UURkN9zbnAw",
       "tags": [
         "python",
@@ -34,12 +54,18 @@
         "2d",
         "top-down"
       ],
-      "links": []
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/sir-geronimo/bike_run"
+        }
+      ]
     },
     {
       "title": "Intro to shading",
       "description": "<p>Small and short introduction to shaders using <i>gdshader</i> format.</p><p>Topics mentioned:</p><ul><li>Vertex</li><li>Fragment</li><li>Uniform</li><li>UV</li></ul>",
       "type": "blog",
+      "preview": null,
       "url": "https://github.com/sir-geronimo/TODO",
       "tags": [
         "shaders",

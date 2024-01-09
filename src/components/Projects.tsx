@@ -9,7 +9,7 @@ export default function Projects() {
 
       <Grid container gap={2}>
         {projects.map((project, idx) => (
-          <Grid>
+          <Grid key={idx}>
             <ProjectCard key={idx} project={project} />
           </Grid>
         ))}
