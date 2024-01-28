@@ -57,12 +57,12 @@
       ],
       "links": [
         {
-          "title": "GitHub",
-          "url": "https://github.com/sir-geronimo/bike_run"
-        },
-        {
           "title": "YouTube",
           "url": "https://youtu.be/UURkN9zbnAw"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/sir-geronimo/bike_run"
         }
       ]
     },
