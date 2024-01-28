@@ -59,22 +59,31 @@
         {
           "title": "GitHub",
           "url": "https://github.com/sir-geronimo/bike_run"
+        },
+        {
+          "title": "YouTube",
+          "url": "https://youtu.be/UURkN9zbnAw"
         }
       ]
     },
     {
-      "title": "Intro to shading",
+      "title": "Shaders",
       "description": "<p>Small and short introduction to shaders using <i>gdshader</i> format.</p><p>Topics mentioned:</p><ul><li>Vertex</li><li>Fragment</li><li>Uniform</li><li>UV</li></ul>",
-      "type": "blog",
-      "preview": null,
-      "url": "https://github.com/sir-geronimo/TODO",
+      "type": "repo",
+      "preview": "images/phong-lighting.png",
+      "url": "https://github.com/sir-geronimo/shading",
       "tags": [
         "shaders",
         "game-dev",
         "godot",
         "2d"
       ],
-      "links": []
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/sir-geronimo/shading"
+        }
+      ]
     }
   ]
 }

@@ -32,8 +32,8 @@ export function ProjectPreview(props: Props) {
           <img src={project.preview} width="100%" onClick={handlePreviewClick} />
         ) : (
           <iframe
-            width="100%"
-            height="100%"
+            width="1920"
+            height="1080"
             src={project.url}
             title={project.title}
             frameBorder={0}
