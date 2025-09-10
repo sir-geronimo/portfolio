@@ -42,7 +42,7 @@ export default function Header() {
           ))}
 
           <Grid key={99}>
-            <Button component={Link} href="enger-jimenez-cv.pdf" download target='_blank' endDecorator={<KeyboardArrowRightRounded />}>
+            <Button component={Link} href="resume.pdf" download target="_blank" endDecorator={<KeyboardArrowRightRounded />}>
               <Typography>Download CV</Typography>
             </Button>
           </Grid>
