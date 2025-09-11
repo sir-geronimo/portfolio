@@ -1,12 +1,21 @@
 {
   "timeline": [
     {
+      "title": "FullStack Software Engineer",
+      "company": "Paragon",
+      "location": "California, US",
+      "remote": true,
+      "started": "2024-11-18",
+      "ended": "2025-09-30",
+      "description": "As a Full Stack Engineer at Paragon, I optimized cloud infrastructure, resolved production-critical issues, and designed modular, pluggable architectures while collaborating with cross-functional teams to deliver resilient, production-ready systems."
+    },
+    {
       "title": "Lead Software Engineer",
       "company": "LP360",
       "location": "Alabama, US",
       "remote": true,
       "started": "2022-09-01",
-      "ended": null,
+      "ended": "2024-11-01",
       "description": "Led a cross-functional team, wrote project documentation, conducted performance reviews, mentored junior engineers, performed interviews, addressed technical issues, collaborated with UI/UX designers, and designed highly scalable systems/web applications."
     },
     {
